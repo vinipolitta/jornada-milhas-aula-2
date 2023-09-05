@@ -1,21 +1,21 @@
 export interface Promocao {
-  id: number
-  destino: string
-  imagem: string
-  preco: number
+    id: number
+    destino: string
+    imagem: string
+    preco: number
 }
 
 export interface UnidadeFederativa {
-  id: number;
-  nome: string;
-  sigla: string;
+    id: number;
+    nome: string;
+    sigla: string;
 }
 
 export interface Depoimento {
-  id: number;
-  texto: string;
-  autor: string;
-  avatar: string;
+    id: number;
+    texto: string;
+    autor: string;
+    avatar: string;
 }
 
 export interface PessoaUsuaria {
@@ -24,8 +24,8 @@ export interface PessoaUsuaria {
   cpf: string;
   telefone: string;
   email: string;
-  genero: string;
   senha: string;
   cidade: string;
   estado: UnidadeFederativa;
+  genero: string;
 }

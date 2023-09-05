@@ -46,7 +46,7 @@ export class DropdownUfComponent implements OnInit {
     )
     return result
   }
-  
+
   displayFn(estado: UnidadeFederativa): string {
     return estado && estado.nome ? estado.nome : '';
   }
